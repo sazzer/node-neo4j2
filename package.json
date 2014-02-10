@@ -1,0 +1,30 @@
+{
+  "name": "neo4j2",
+  "description": "Neo4J 2.x Connector for Node.js",
+  "version": "0.0.1",
+  "author": "Graham Cox <graham@grahamcox.co.uk>",
+  "keywords": [
+    "neo4j"
+  ],
+  "dependencies": {
+    "q": "~1.0.0",
+    "selfish": "~0.3.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "should": "~3.1.2",
+    "mocha-as-promised": "~2.0.0"
+  },
+  "main": "src/main/index",
+  "scripts": {
+    "test": "mocha --reporter spec --recursive src/spec"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sazzer/node-neo4j2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sazzer/node-neo4j2.git/issues"
+  }
+}
